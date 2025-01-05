@@ -1,0 +1,73 @@
+/* Basic Theme */
+
+body {
+    background-color: #EFE6DD;
+    color:  #231F20;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* Headings */
+
+h1,
+h2, 
+h3 {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #BB4430;
+    font-size: 24px;
+}
+
+h3 {
+    color: #4F8083;
+}
+
+/* Links */
+
+a:link {
+    color: #231F20;
+}
+
+a:visited {
+    color: #4F8083;
+}
+
+a:hover {
+    color: #BB4430;
+}
+
+/* Home Page */
+
+.homeTitle {
+    font-size: 56px;
+}
+
+.recipeTitle {
+    font-size: 20px;
+}
+
+/* Recipe Pages */
+
+.foodPic {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+.description {
+    font-style: italic;
+}
+
+.backLink {
+    margin-top: 40px;
+}

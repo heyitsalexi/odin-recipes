@@ -1,57 +1,83 @@
+/* Reset Defaults */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Basic Theme */
 
 body {
-    background-color: #EFE6DD;
-    color:  #231F20;
+    background-color: #FFF4DF;
+    color:  #000;
     font-family: Helvetica, sans-serif;
-    font-size: 16px;
-}
-
-/* Headings */
-
-h1,
-h2, 
-h3 {
-    font-family: Georgia, serif;
 }
 
 h1 {
-    font-size: 40px;
-    text-align: center;
-    margin-top: 50px;
+    font-size: 36px;
+    font-weight: lighter;
 }
 
 h2 {
-    color: #BB4430;
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 h3 {
-    color: #4F8083;
-}
-
-/* Links */
-
-a:link {
-    color: #231F20;
-}
-
-a:visited {
-    color: #4F8083;
-}
-
-a:hover {
-    color: #BB4430;
-}
-
-/* Home Page */
-
-.homeTitle {
-    font-size: 56px;
-}
-
-.recipeTitle {
     font-size: 20px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Header */
+
+.header {
+    background-color: #114C5D;
+    text-align: center;
+    color: #FFF4DF;
+    padding: 50px;
+}
+
+.subtitle {
+    margin-bottom: 10px;
+}
+
+/* Content (Home) */
+
+.title{ 
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.recipe {
+    background-color: #8FB2A1;
+    margin: 30px auto;
+    text-align: left;
+    width: 300px;
+    padding: 40px 40px 30px 40px;
+}
+
+.name {
+    margin-bottom: 20px;
+}
+
+.button1 {
+    background-color: #114C5D;
+    width: 70px;
+    padding: 10px;
+    font-size: 14px;
+
+}
+
+.buttonLink{
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Recipe Pages */
@@ -70,4 +96,18 @@ a:hover {
 
 .backLink {
     margin-top: 40px;
+}
+
+/* Links */
+
+/* a:link {
+    text-decoration: none;
+} */
+
+/* a:visited {
+    color: #000;
+} */
+
+a:hover {
+    color: #FAB32A;
 }
